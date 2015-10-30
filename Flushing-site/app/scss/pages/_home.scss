@@ -1,0 +1,685 @@
+.Home .bg-nav{
+	background-color: rgba(255,255,255,.5);
+}
+.home{
+
+	.bg-home{
+
+		@include animationAll(.8s);
+		background-image: url(../img/img-central-home.jpg);
+		width: 100%;
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: table;
+		background-position: center center;
+		z-index: 0;
+
+
+		.title-home{
+			display: table-cell;
+			vertical-align: middle;
+			text-align: left;
+			padding: 0;
+
+			.title-40{
+				max-width: 242px;
+			}
+
+			p{
+				color: $color-42;
+				font-size: 14px;
+				line-height: 18px;
+				margin: 14px 0 30px 0;
+				max-width: 318px;
+			}
+		}
+	}
+	.building-home{
+		width: 100%;
+		margin: 0px;
+		position: relative;
+
+		.box-info{
+
+			span{
+				pointer-events: none;
+				overflow: hidden;
+				opacity: 0;
+				display: block;
+				background-color: rgba(197,164,116,0.95);
+				color: $white;
+				width: 341px;
+				transform: scale(0,0);
+				padding: 20px;
+
+				i{
+					width: 5px;
+					height: 5px;
+					border-radius: 5px;
+					background-color: $white;
+					display: block;
+					margin: 15px 0;
+				}
+				h2{
+					overflow: hidden;
+					opacity: 0;
+					display: block;
+					margin: 0;
+				}
+				h3{
+					margin: 0;
+					overflow: hidden;
+					opacity: 0;
+					display: block;
+				}
+			}
+		}
+		.hover-point{
+
+			span{
+				overflow: visible;
+				opacity: 1;
+				transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+				width: 341px;
+				transform: scale(1,1);
+
+				h2{
+					overflow: visible;
+					opacity: 1;
+					transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+				}
+				h3{
+					overflow: visible;
+					opacity: 1;
+					transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+				}
+			}
+		}
+		.box-info-1{
+			top: 21%;
+			left: 32%;
+		}
+		.box-info-2{
+			top: 48%;
+			left: 50%;
+		}
+		.box-info-3{
+			top: 31%;
+			right: 28.5%;
+
+			span{
+				left: -1780%;
+			}
+		}
+		.box-info-4{
+			right: 21.5%;
+			bottom: 29%;
+
+			span{
+				left: -1780%;
+			}
+		}
+		.box-info-5{
+			right: 4.5%;
+			top: 33.3%;
+
+			span{
+				left: -1780%;
+			}
+		}
+		svg{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+		}
+		img{
+			width: 100%;
+		}
+	}
+	.content-shadow-building{
+		svg{
+			opacity: 0;
+			overflow: hidden;
+			transition: all 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			pointer-events: none;
+		}
+	}
+	.hover-shadow{
+		svg{
+			opacity: .33;
+			overflow: visible;
+			transition: all 400ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			pointer-events: none;
+		}
+	}
+	.arrow-down-home{
+		position: relative;
+		width: 100%;
+		text-align: center;
+		margin: -100px 0 0 0;
+
+		a{
+
+			@include sprite(arrow-down-home);
+			display: inline-block;
+			@include animationAll(.6s);
+
+		}
+	}
+	.content-home{
+		position: relative;
+		margin: 55px 0 0 0;
+		width: 100%;
+
+		.content-copy-one{
+			display: table;
+			height: 365px;
+			position: relative;
+			width: 100%;
+		}
+
+		.content-left{
+			text-align: right;
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+			height: 100%;
+			float: none;
+			padding:0;
+
+			h2{
+				position: relative;
+				left: 28px;
+				z-index: 1;
+			}
+			p{
+				position: relative;
+				right: 40px;
+				max-width: 419px;
+				float:right;
+				z-index: 1;
+			}
+		}
+
+		.content-right{
+			text-align: right;
+			background-color: $green;
+			position: relative;
+			display: table-cell;
+			vertical-align: middle;
+			height: 100%;
+			float: none;
+			padding:0;
+
+			ul{
+				font-size: 30px;
+				line-height: 45px;
+				color: $gold;
+			}
+		}
+
+		.box-green{
+			background-color:$green;
+			position: absolute;
+			left: 0;
+			width: 300%;
+			top: 0;
+			height: 200%;
+			z-index: -1;
+		}
+
+		.content-copy-two{
+			position: relative;
+			width: 100%;
+
+			figure{
+				position: relative;
+				margin: 0;
+				display: table;
+
+				a{
+					color: $white;
+					font-size: 17px;
+					text-decoration: underline;
+				}
+			}
+			h3{
+				font-size: 70px;
+				color: $gold;
+				display: table-cell;
+				vertical-align: middle;
+				font-family: $font-base;
+				font-weight: 300;
+			}
+			h4{
+				font-size: 45px;
+				line-height: 45px;
+				color: $gold;
+				font-family: $font-base;
+				font-weight: 300;
+			}
+			p{
+				color: $color-menu;
+				max-width: 310px;
+			}
+
+			.over-live, .over-work{
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				left: 0;
+				top:0;
+				z-index: 1;
+				@include animationAll(.6s);
+			}
+			.over-live{
+				background-color: rgba(255, 241, 232, 0.98);
+				text-align: left;
+				@include animationAll(.3s);
+				opacity:0;
+				visibility: hidden;
+				left: 100%;
+
+				p{
+					margin: 0 0 0 40px;
+				}
+				h4{
+					margin: 132px 0 50px -32px;
+				}
+
+			}
+			.over-work{
+				background-color: rgba(194, 230, 202, 0.98);
+				text-align: right;
+				@include animationAll(.3s);
+				opacity:0;
+				visibility: hidden;
+				left: -100%;
+
+				p{
+					margin: 0 40px 0 0;
+					float: right;
+				}
+				h4{
+					margin: 132px -32px 50px 0;
+				}
+			}
+			.visible{
+				@include animationAll(.4s);
+				opacity:1;
+				visibility: visible;
+			}
+			.live{
+				position: relative;
+				height: 590px;
+				width: 50%;
+				float: left;
+				@include animationAll(.6s);
+				cursor: pointer;
+
+				figure{
+					background-image: url(../img/img-live-home.jpg);
+					width: 101%;
+					height: 100%;
+					position: relative;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+				h3{
+					text-align: right;
+					right: 45px;
+					position: relative;
+				}
+				a{
+					right: 108px;
+					position: absolute;
+					top: 55%;
+					opacity:0;
+					visibility: hidden;
+				}
+
+				&:hover a{
+					opacity:1;
+					visibility: visible;
+				}
+			}
+			.work{
+				position: relative;
+				height: 590px;
+				width: 50%;
+				display: inline-block;
+				@include animationAll(.6s);
+				cursor: pointer;
+
+
+				figure{
+					background-image: url(../img/img-work-home.jpg);
+					width: 100%;
+					height: 100%;
+					position: relative;
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center center;
+				}
+
+				h3{
+					text-align: left;
+					left: 45px;
+					position: relative;
+				}
+				a{
+					left: 150px;
+					position: absolute;
+					top: 55%;
+					opacity:0;
+					visibility: hidden;
+				}
+				&:hover a{
+					opacity:1;
+					visibility: visible;
+				}
+			}
+		}
+		aside{
+			min-height: 441px;
+			position: relative;
+			margin: -5px 0;
+
+			.row{
+				position: relative
+			}
+			.close-features{
+				position: absolute;
+				right: -96px;
+				background-color: white;
+				width: 96px;
+				height: 45px;
+				top: 40px;
+				z-index: 1;
+				line-height: 45px;
+				padding: 0 0 0 16px;
+				font-weight: 300;
+
+				span{
+					font-size: 40px;
+					position: absolute;
+					right: 12px;
+				}
+			}
+			.title-project-features{
+				color: $gold;
+				margin: 38px 0 24px 0;
+
+				&::after{
+					content: "";
+					background-color: #b88f54;
+					width: 8px;
+					height: 8px;
+					border-radius: 10px;
+					position: absolute;
+					margin: 39px 0;
+					left: 10px;
+				}
+			}
+			.content-scroll-project{
+				max-width: 430px;
+				height: 306px;
+				overflow: auto;
+				margin: 48px 0 24px 0;
+
+				p{
+					font-size: 12px;
+				}
+			}
+			.content-pattern{
+				position: absolute;
+				left: 75%;
+			}
+		}
+
+		.content-copy-tri{
+
+			h5{
+				text-align: center;
+				margin: 88px 0 60px 0;
+			}
+			p{
+				-webkit-column-count: 2;
+				-webkit-column-gap: 60px;
+				text-align: left;
+			}
+			button, .button{
+				padding: 0 15px 0 20px;
+				margin: 60px 0 60px 40%;
+			}
+			button:hover, button:focus, .button:hover, .button:focus {
+				padding:0 30px 0 20px;
+			}
+		}
+		.project-features{
+			position: absolute;
+			right: -100%;
+			top: 0;
+			width: 100%;
+			transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			opacity: 0;
+		}
+		.project-home{
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+		.open-features{
+			transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			right: 0;
+			opacity: 1;
+		}
+		.close-project{
+			transition: all 1000ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			left: -100%;
+		}
+		.content-scroll-project{
+			opacity: 0;
+			right: -50px;
+			position: relative;
+			transition: all 1300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
+
+			i{
+				color: $gold;
+				margin: 0 5px 0 0;
+			}
+		}
+		.view{
+			opacity: 1;
+			right: 0;
+			position: relative;
+			transition: all 1300ms cubic-bezier(0.550, 0.085, 0.680, 0.530); /* easeInQuad */
+		}
+	}
+	.map-static{
+		background-image: url(../img/img-map-home.jpg);
+		width: 100%;
+		height: 551px;
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+
+		.box-green{
+			display: table;
+			height: 100%;
+			background-color: $green;
+			position: absolute;
+			max-width: 373px;
+
+			.content-centered{
+				display: table-cell;
+				vertical-align: middle;
+
+				button, .button{
+					position: absolute;
+					left: 27.5%;
+				}
+			}
+
+			h6{
+				max-width: 250px;
+				margin: auto;
+			}
+			p{
+				margin: 54px 0;
+			}
+		}
+	}
+}
+@media #{$small-only} {
+	.Home .bg-nav{
+		background-color: rgba(255, 255, 255, 1);
+	}
+	.Home footer{
+		margin: 30px 0 0 0;
+	}
+	.home{
+
+		.building-home{
+			.box-info{
+				display: none;
+			}
+			.content-shadow-building{
+				display: none;
+			}
+			.m_buildinghome{
+				display: none;
+			}
+		}
+
+		.box-green-mob{
+			display: table;
+			height: 100%;
+			background-color: $green;
+			position: relative;
+			max-width: 100%;
+
+			.content-centered{
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			h6{
+				max-width: 250px;
+				margin: 40px auto 33px auto;
+			}
+			p{
+				margin: 0 0 54px 0;
+			}
+			.button{
+				margin: 0 0 30px 0;
+			}
+		}
+
+		.arrow-down-home{
+			margin: -60px 0px 0px;
+		}
+		.content-home{
+			margin: 14px 0px 50px 0px;
+
+			aside{
+				.close-features{
+					top: 25px;
+					right: 0;
+				}
+			}
+
+			.content-left p{
+				right: 20px;
+				max-width: 233px;
+			}
+
+			.content-right ul{
+				color: $green;
+			}
+			.content-copy-two{
+
+				.live{
+					height: 420px;
+					width: 100%;
+
+					figure{
+						background-position: left center;
+					}
+
+				}
+				.work{
+					height: 420px;
+					width: 100%;
+				}
+				h3{
+					vertical-align: bottom;
+				}
+			}
+			.content-copy-tri{
+				text-align: center;
+
+				h5{
+					margin: 38px 0px 30px;
+				}
+				p{
+					text-align: center;
+					column-count: 1;
+					column-gap: 60px;
+
+				}
+				.button{
+					margin: 40px auto 40px auto;
+				}
+			}
+		}
+		.map-static{
+			height: 310px;
+			margin: 0;
+			background-image: url("../img/img-map-home-mob.jpg");
+
+			.row{
+				max-width: 100%;
+			}
+			.box-green{
+				display: none;
+			}
+		}
+	}
+}
+@media #{$medium-only} {
+	.Home .bg-nav{
+		background-color: rgba(255, 255, 255, 1);
+	}
+	.row {
+		max-width: 660px;
+	}
+	.home{
+		.content-home aside{
+			min-height: 500px;
+		}
+		.content-home aside .content-scroll-project{
+			height: 366px;
+		}
+		.content-home .content-copy-tri .button {
+			margin: 80px 0px 60px 36%;
+		}
+		.content-home .content-copy-two .work h3, .content-home .content-copy-two .live h3{
+			text-shadow: 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake, 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake, 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake, 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake, 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake, 0px 30px 40px $cake, 0px -30px 40px $cake, 0px 0px 40px $cake, 30px 0px 40px $cake, -30px 0px 40px $cake;
+		}
+	}
+}
+@media only screen and (max-height: 480px) and (max-width: 40em) and (orientation: landscape){
+	.home{
+		.bg-home{
+			.title-home{
+				display: none;
+			}
+		}
+	}
+}

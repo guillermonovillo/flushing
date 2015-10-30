@@ -1,0 +1,59 @@
+.Wrong .bg-nav{
+	background-color: rgba(255,255,255,1);
+}
+.wrong{
+	
+	section{
+		min-height: 207px;
+		background-color: $green;
+		display: table;
+		width: 100%;
+		position: relative;
+		margin: 124px 0px 52px 0px;
+	}
+	.content-title{
+		display: table-cell;
+		position: relative;
+		vertical-align: middle;
+		height: 100%;
+		
+		h1{
+			font-size: 219px;
+			letter-spacing: 0;
+			color: $gold;
+			position: relative;
+			
+			sup{
+				font-size: 18px;
+				top: 28%;
+				position: absolute;
+				margin: 0 0 0 -10px;
+			}
+		}
+	}
+	article{
+		
+		margin: 0 0 158px 0;
+		
+		p:first-child{
+			color: $gold;
+		}
+		p:last-child{
+			margin: 24px 0 13px 0;
+		}
+		input{
+			max-width: 234px;
+			border-width: 1px;
+			border-left: none;
+			border-right: none;
+			border-top: none;
+			border-color: $color-form;
+			box-shadow: none;
+			background-color: transparent;
+			
+			&:focus{
+				background-color: transparent;
+			}
+		}
+	}
+}

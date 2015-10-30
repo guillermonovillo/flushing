@@ -1,0 +1,36 @@
+.Press-interna .bg-nav{
+	background-color: rgba(255,255,255,1);
+}
+.press-interna{
+	margin: 118px 0 0 0;
+
+	.pattern{
+		height: 144px;
+	}
+	.title-40{
+		margin: -19px 0 0 0;
+		z-index: 1;
+		position: relative;
+		text-align: left;
+	}
+	.view-all{
+		margin: 32px 0;
+		width: 100%;
+		float: left;
+
+		.arrow-left-direction{
+			position: relative;
+			padding: 0 22px;
+		}
+	}
+	figure{
+		margin: 0;
+	}
+}
+
+
+@media #{$small-only} {
+	.Press-interna .footer{
+		padding: 20px 0 0 0;
+	}
+}

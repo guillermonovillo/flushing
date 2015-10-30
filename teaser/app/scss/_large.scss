@@ -1,0 +1,20 @@
+
+body{
+	font-size: 10px;
+}
+.t18{
+    top: 14px;
+}
+.label_other{
+	margin-top:1.5em
+}
+#form{
+	.contentForm{
+
+        label{
+
+            @include text-size(.97em);
+
+        }
+    }
+}

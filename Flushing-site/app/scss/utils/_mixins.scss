@@ -1,0 +1,6 @@
+@mixin animationAll($allTime){
+	-webkit-transition: all $allTime ease-in-out;
+	-moz-transition: all $allTime ease-in-out;
+	-o-transition: all $allTime ease-in-out;
+	transition: all $allTime ease-in-out;
+}

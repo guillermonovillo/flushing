@@ -1,0 +1,89 @@
+.Press .bg-nav{
+	background-color: rgba(255,255,255,1);
+}
+.press{
+	margin: 118px 0 0 0;
+
+	.pattern{
+		height: 144px;
+	}
+	.title-40{
+		margin: -19px 0 60px 0;
+		z-index: 1;
+		position: relative;
+		text-align: left;
+	}
+	.view-all{
+		margin: 32px 0;
+		width: 100%;
+		float: left;
+		
+		.arrow-left-direction{
+			position: relative;
+			padding: 0 22px;
+		}
+	}
+	.notice{
+		width: 100%;
+		position: relative;
+		float: left;
+		
+		&:first-child{
+			margin: 0 0 40px 0;
+		}
+		
+		.header-notice{
+
+			h2{
+				margin: 10px 0 0 0;
+			}
+			.button{
+				margin: 30px 0 0 0;
+				position: relative;
+			}
+		}
+		figure{
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.middle-notice{
+		margin: 30px 0;
+	}
+	.paginator{
+		text-align: center;
+		margin: 40px 0 30px 0;
+		
+		ul{
+			margin: 0;
+		}
+		li{
+			margin: 0;
+			display: inline-block;
+		}
+		a{
+			padding: 5px 10px;
+		}
+		.active{
+			background-color: $gold;
+			color: $white;
+		}
+	}
+}
+@media #{$small-only} {
+	.Press footer{
+		padding: 20px 0 0 0;
+	}
+	.press{
+		.header-notice{
+			padding: 0;
+		}
+	}
+}
+@media #{$medium-only} {
+	.press{
+		.header-notice{
+			padding: 0;
+		}
+	}
+}

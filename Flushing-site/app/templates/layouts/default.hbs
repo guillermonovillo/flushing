@@ -1,0 +1,105 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <meta name="description" content="">
+    <!-- build:css css/libraries.min.css -->
+    <link rel="stylesheet" type="text/css" href="css/foundation.css">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css css/app.min.css -->
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/app_override.css">
+    <!-- endbuild -->
+    <!-- build:js js/vendor/modernizr.min.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+
+    <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+
+    {{>favicons}}
+
+    </head>
+    <div class="js">
+      <body class="{{body_classes}}">
+        <div id="preloader" class="preloader"></div>
+        <div class="off-canvas-wrap" data-offcanvas>
+            <div class="inner-wrap">
+                <div class="bg-nav large-12 medium-12 small-12">
+                    <nav class="row tab-bar">
+                        <div class="large-4 column">
+                            <a class="icon-bar" href="index.html"></a>
+                        </div>
+                        <div class="menu-sup large-8 column hide-for-medium hide-for-small">
+                            <ul class="lang">
+                              <li><a href="en">EN</a>/</li>
+                              <li><a href="es">中文</a></li>
+                              <li class="social"><a href="#" class="icon facebook"></a></li>
+                              <li><a href="#" class="icon vimeo"></a></li>
+                            </ul>
+                        </div>
+                        <aside class="large-8 column menu-desktop hide-for-small hide-for-medium">
+                            {{> nav }}
+                        </aside>
+                        <section class="right-small">
+                            <a class="right-off-canvas-toggle menu-icon" ><span></span></a>
+                        </section>
+                    </nav>
+                </div>
+
+                <aside class="menu-mobile right-off-canvas-menu">
+                  {{> nav }}
+                </aside>
+
+                <section class="main-section">
+
+                    {{> body }}
+
+                    {{> footer }}
+
+                </section>
+                <a class="exit-off-canvas"></a>
+            </div>
+        </div>
+
+        <!-- build:js js/vendor/libraries.min.js -->
+        <!-- bower:js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/fastclick/lib/fastclick.js"></script>
+        <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js js/vendor/foundation.min.js -->
+        <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+        <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js js/mapping.min.js -->
+        <script src="js/mapping-responsive.js"></script>
+        <!-- endbuild -->
+
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerwithlabel/src/markerwithlabel.js"></script>
+        <script src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/infobox/src/infobox.js"></script>
+
+        <!-- build:js js/map.min.js -->
+        <script src="js/map.js"></script>
+        <!-- endbuild -->
+
+        <script type='application/javascript' src='js/hammerjs/hammer.min.js'></script>
+        <script type='application/javascript' src='js/jquery.transit.min.js'></script>
+      	<script type='application/javascript' src='js/picker.js'></script>
+
+        <!-- build:js js/app.min.js -->
+        <script src="js/app.js"></script>
+        <!-- endbuild -->
+
+      </body>
+    </div>
+</html>

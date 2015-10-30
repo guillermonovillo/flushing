@@ -1,0 +1,70 @@
+$txtBase: 'Open Sans', sans-serif;
+$colorBase: #7E7E7E;
+$sizeText: 1em;
+
+@mixin text-size($sizeText){
+	font-size: $sizeText;
+}
+@mixin animationAll($allTime){
+	-webkit-transition: all $allTime ease-in-out;
+	-moz-transition: all $allTime ease-in-out;
+	-o-transition: all $allTime ease-in-out;
+	transition: all $allTime ease-in-out;
+}
+
+// XS Small screens 
+
+// Small screens 
+@media #{$small-up} { 
+   @import  "small";
+}
+
+//@media #{$small-only} {  @import  "only-mobile";} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+
+/* min-width 641px, medium screens */
+@media #{$medium-only} {
+    @import "medium";
+}
+
+ //@media #{$medium-only} {  @import  "only-tablet"; }
+
+/* min-width 1025px, large screens */
+
+@media #{$large-up} { 
+   @import  "large-xx";
+}
+
+@media #{$large-only} { 
+   @import  "large";
+}
+
+@media only screen and (max-width: 40em) and (max-height: 480px) and (orientation : landscape) {
+
+   @import  "xs-small_landscape";
+   
+}
+
+@media only screen and (min-width: 1832px){
+
+   .label_other{
+      margin-top:1.19em
+    }
+
+}
+@media only screen and (min-width: 1006px) and (max-width: 1024px){
+
+  .label_other {
+    margin-top: 1.6em;
+  }
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1363px){
+
+  .label_other {
+    margin-top: 3.2em;
+  }
+
+}
+@media #{$small-only} { 
+   @import  "xs-small";
+}

@@ -1,0 +1,226 @@
+$sprite: (
+	arrow-down-home-over: (
+		offset-x: -302px,
+		offset-y: -32px,
+		width: 40px,
+		height: 40px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow-down-home: (
+		offset-x: -352px,
+		offset-y: -32px,
+		width: 40px,
+		height: 40px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow-foo-scrolltop: (
+		offset-x: -133px,
+		offset-y: -148px,
+		width: 25px,
+		height: 14px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow-over: (
+		offset-x: -168px,
+		offset-y: -148px,
+		width: 5px,
+		height: 10px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	arrow-select: (
+		offset-x: -133px,
+		offset-y: -172px,
+		width: 13px,
+		height: 7px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	close-gold: (
+		offset-x: -133px,
+		offset-y: -118px,
+		width: 20px,
+		height: 20px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	close-grey: (
+		offset-x: -133px,
+		offset-y: -88px,
+		width: 20px,
+		height: 20px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-contact-fulltonex: (
+		offset-x: 0px,
+		offset-y: 0px,
+		width: 180px,
+		height: 78px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-facebook: (
+		offset-x: -163px,
+		offset-y: -118px,
+		width: 9px,
+		height: 17px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-team-aecom: (
+		offset-x: -190px,
+		offset-y: -84px,
+		width: 132px,
+		height: 24px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-team-ft: (
+		offset-x: -332px,
+		offset-y: -84px,
+		width: 51px,
+		height: 24px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-team-rockefeller: (
+		offset-x: -190px,
+		offset-y: 0px,
+		width: 204px,
+		height: 22px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	icon-vimeo: (
+		offset-x: -163px,
+		offset-y: -88px,
+		width: 16px,
+		height: 14px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-foo-aecom: (
+		offset-x: -252px,
+		offset-y: -143px,
+		width: 85px,
+		height: 16px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-foo-ft: (
+		offset-x: -347px,
+		offset-y: -143px,
+		width: 33px,
+		height: 15px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-foo-fulltonex: (
+		offset-x: -190px,
+		offset-y: -32px,
+		width: 102px,
+		height: 42px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-foo-rockefeller: (
+		offset-x: -252px,
+		offset-y: -118px,
+		width: 130px,
+		height: 15px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-footer: (
+		offset-x: -190px,
+		offset-y: -118px,
+		width: 52px,
+		height: 47px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+	logo-header: (
+		offset-x: 0px,
+		offset-y: -88px,
+		width: 123px,
+		height: 92px,
+		total-width: 394px,
+		total-height: 180px,
+		image: '../../img/sprites/sprite.png'
+	),
+);
+
+
+@mixin sprite-size($image) {
+	background-size: map-get(map-get($sprite, $image), 'total-width') map-get(map-get($sprite, $image), 'total-height');
+}
+
+@mixin sprite-width($image) {
+	width: map-get(map-get($sprite, $image), 'width');
+}
+
+@mixin sprite-height($image) {
+	height: map-get(map-get($sprite, $image), 'height');
+}
+
+@mixin sprite-position($image) {
+	background-position: map-get(map-get($sprite, $image), 'offset-x') map-get(map-get($sprite, $image), 'offset-y');
+}
+
+@mixin sprite-image($image) {
+	background-image: url(map-get(map-get($sprite, $image), 'image'));
+}
+
+@mixin sprite-image-retina($image) {
+	$image-path: map-get(map-get($sprite, $image), 'image');
+	$image-path-retina: str-slice($image-path, 1, str-index($image-path, '.png') - 1) + '@2x.png';
+
+	background-image: url($image-path-retina);
+}
+
+@mixin sprite($image, $size: true) {
+	@include sprite-image($image);
+	@include sprite-position($image);
+	background-repeat: no-repeat;
+
+	@if $size {
+		@include sprite-width($image);
+		@include sprite-height($image);
+	}
+
+	@media
+		only screen and (-webkit-min-device-pixel-ratio: 2),
+		only screen and (   min--moz-device-pixel-ratio: 2),
+		only screen and (     -o-min-device-pixel-ratio: 2/1),
+		only screen and (        min-device-pixel-ratio: 2),
+		only screen and (                min-resolution: 192dpi),
+		only screen and (                min-resolution: 2dppx) {
+
+		@include sprite-size($image);
+		@include sprite-image-retina($image);
+
+	}
+}
+

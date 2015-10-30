@@ -1,0 +1,1021 @@
+.Availability .bg-nav{
+	background-color: rgba(255,255,255,1);
+}
+.Availability footer{
+
+}
+.availability{
+	margin: 118px 0 0 0;
+
+	.content-availability{
+		position: relative;
+
+		.content-left{
+			margin: 0;
+			width: 50%;
+			position: relative;
+			float: left;
+
+			img{
+				width: 100%;
+			}
+
+			.content-shadow{
+
+				svg{
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					opacity: 0;
+					overflow: hidden;
+					@include animationAll(.4s);
+					pointer-events: none;
+				}
+			}
+
+			.hover-shadow{
+				svg{
+					opacity: .33;
+					overflow: visible;
+					@include animationAll(.4s);
+					pointer-events: none;
+				}
+			}
+			.point-1{
+				top: 60%;
+				left: 26%;
+			}
+			.point-2{
+				top: 39%;
+				left: 52%;
+			}
+		}
+		.content-right{
+			width: 50%;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+			position: relative;
+
+			.box-green{
+				background-color: $green;
+				position: relative;
+				height: 50%;
+				display: table;
+				width: 100%;
+
+				&::before{
+					content:"";
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 20px 20px 20px 0;
+					border-color: transparent $green transparent transparent;
+					position: absolute;
+					left:-20px;
+					top: 45%;
+				}
+
+				.title-40{
+					display: table-cell;
+					vertical-align: middle;
+					left: 28px;
+					line-height: 50px;
+					position: relative;
+				}
+			}
+
+			figure{
+				margin: 0;
+				bottom: 0;
+				position: absolute;
+				width: 100%;
+				left: 0;
+
+				img{
+					width: 50%;
+					float: left;
+					position: relative;
+				}
+			}
+		}
+
+		//INFO FLOORS AND PLANS
+		.content-info-residences, .content-info-offices{
+			overflow: hidden;
+			opacity: 0;
+			position: absolute;
+			z-index:-1;
+			top: 0;
+			left: 0;
+			width: 100%;
+			transition: all 800ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+			.content-left{
+				background-color: $fafa;
+				height: 100%;
+				position: absolute;
+				z-index: 9;
+
+				.titles{
+					text-align: right;
+					position: absolute;
+					left: 0;
+					width: 40%;
+
+					h2{
+						font-weight: 300;
+						font-family: $font-base;
+						color: $gold;
+						font-size: 35px;
+						margin: 47px 0px 3px;
+					}
+				}
+
+				.close-floorplans{
+					position: absolute;
+					right: 0;
+					top:-20px;
+
+					span{
+						font-size: 50px;
+						font-weight: 300;
+						margin: 0 17px;
+						font-family: $font-base;
+						top: 14px;
+						position: relative;
+					}
+				}
+
+				figure{
+					margin: 0;
+					position: absolute;
+					bottom: 0;
+					width: 119%;
+					left: -43%;
+				}
+				svg{
+					position: absolute;
+					top: 0px;
+					left: 0px;
+					height: 100%;
+					overflow: hidden;
+					@include animationAll(.4s);
+				}
+
+				.building{
+
+					text, line{
+						opacity: 0;
+						@include animationAll(.4s);
+					}
+					.floor{
+						opacity: 0;
+						overflow: hidden;
+						@include animationAll(.4s);
+						cursor: pointer;
+					}
+					.hover{
+						opacity: .65;
+						@include animationAll(.6s);
+						overflow: visible;
+					}
+				}
+			}
+			.content-right{
+				background-color: $white;
+				float: right;
+
+				h5{
+					font-weight: 300;
+					font-family: $font-base;
+					color: #605558;
+					font-size: 30px;
+					margin: 47px 0 0 32px;
+				}
+
+				.arrow-vector{
+					font-size: 14px;
+					position: absolute;
+					right: 0;
+					top: 20px;
+					overflow: hidden;
+					opacity: 0;
+					@include animationAll(.4s);
+					z-index: -1;
+
+					span{
+						position: absolute;
+						left: -44px;
+						top: -4px;
+						width: 40px;
+						height: 30px;
+
+						&::after{
+							content:"";
+							height: 10px;
+							width: 1px;
+							top: 12px;
+							right: 10px;
+						}
+						&::before{
+							content:"";
+							height: 10px;
+							width: 1px;
+							right: 10px;
+							top: 5px;
+						}
+					}
+					&:hover span::after, &:hover span::before{
+						background-color: $color-base;
+						@include animationAll(.4s);
+					}
+				}
+				.visible_see_all{
+					overflow: visible;
+					opacity: 1;
+					@include animationAll(.4s);
+					z-index: 11;
+				}
+				.title-floor{
+						max-width: 500px;
+						position: relative;
+					h3{
+						font-weight: 300;
+						font-family: $font-base;
+						color: $gold;
+						font-size: 35px;
+						margin: 47px 0 0 32px;
+					}
+				}
+
+				&::before{
+					content:"";
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 20px 20px 20px 0;
+					border-color: transparent $white transparent transparent;
+					position: absolute;
+					left: -20px;
+					top: 23%;
+					z-index: 10;
+				}
+
+				.line-gold{
+					height: 1px;
+					width: 85px;
+					background-color: $gold;
+					margin: 24px 0 0 32px;
+				}
+			}
+		}
+		.visible_building{
+			overflow: hidden;
+			z-index: 9;
+			opacity: 1;
+			transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+	}
+	.list-floorplan{
+		margin: 46px 0 0 32px;
+		overflow: auto;
+		height: 60%;
+		position: relative;
+
+		li{
+			display: inline-block;
+			width: 24%;
+			margin: 0 0 36px 0;
+			text-align: center;
+		}
+		a{
+			color: #605558;
+			font-weight: 300;
+			font-size: 15px;
+
+			h4{
+				font-weight: 300;
+				font-size: 20px;
+				padding: 10px 0 5px 0;
+			}
+
+			&:hover{
+				color: $gold;
+
+				h4{
+					color: $gold;
+					@include animationAll(.4s);
+				}
+				i{
+					background-color: $gold;
+					@include animationAll(.4s);
+				}
+				span{
+					overflow: hidden;
+					opacity: 1;
+					@include animationAll(.4s);
+				}
+			}
+		}
+		i{
+			display: block;
+			margin: auto;
+			width: 10px;
+			height: 10px;
+			border-radius: 10px;
+			background-color: #605558;
+			@include animationAll(.4s);
+		}
+		span{
+			overflow: hidden;
+			opacity: 0;
+			color: $gold;
+			text-decoration: underline;
+			@include animationAll(.4s);
+			padding: 5px 0;
+			display: block;
+		}
+	}
+	.view-floorplan{
+		position: absolute;
+		top: 0px;
+		height: 100%;
+		width: 100%;
+		opacity: 0;
+		overflow: hidden;
+		z-index: -1;
+		@include animationAll(.4s);
+
+		.floorplan{
+			position: absolute;
+			height: 63%;
+			display: block;
+			width: 100%;
+			margin: auto;
+			text-align: center;
+			top: 25%;
+
+			img{
+				position: relative;
+				height: 100%;
+			}
+		}
+		.foo-floorplan{
+			width: 100%;
+			margin: auto;
+			display: block;
+			bottom: 14px;
+			position: absolute;
+			left: 34px;
+		}
+	}
+	.visible_floorplan{
+		overflow: visible;
+		z-index: 10;
+		opacity: 1;
+		transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	}
+}
+@media #{$small-only} {
+	.Availability footer{
+		padding: 20px 0 0 0;
+	}
+	.availability{
+		.not-result{
+			top: 33px;
+			left: 33px;
+			position: relative;
+		}
+		.floorplans-residences-mobile, .floorplans-offices-mobile{
+			position: absolute;
+		  top: 118px;
+			width: 100%;
+		  opacity: 0;
+			overflow:hidden;
+			transition: all 0 cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		  z-index: -2;
+		  background-color: white;
+		}
+		.visible_floorplan{
+			overflow: visible;
+			z-index: 10;
+			opacity: 1;
+			transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+		.list-floorplan{
+			overflow: auto;
+			height: 434px;
+			position: relative;
+			margin: auto;
+			padding: 0 0 40px 0;
+
+			li{
+				width: 50%;
+				margin: 45px 0 0 0;
+			}
+			a:hover span{
+				color: $gold;
+			}
+			span{
+				overflow: visible;
+				opacity: 1;
+				color: #605558;
+			}
+		}
+		.view-floorplan{
+			position: absolute;
+			top: 118px;
+			height: auto;
+			width: 100%;
+			opacity: 0;
+			overflow: hidden;
+			z-index: -1;
+			@include animationAll(0);
+			background-color: $white;
+			padding: 0 0 100px 0;
+
+			.floorplan{
+				position: relative;
+				height: auto;
+				display: block;
+				width: 100%;
+				margin: auto;
+				text-align: center;
+				min-height: 390px;
+
+				// &::after{
+				// 	content: '';
+				// 	background-image: url(../img/image-crash.png);
+				// 	background-size: contain;
+				// 	width: 200px;
+				// 	height: 200px;
+				// 	display: block;
+				// 	margin: auto;
+				// 	background-repeat: no-repeat;
+				// 	background-position: center center;
+				// }
+
+				img{
+					position: relative;
+					max-height: 390px;
+					top: 20px;
+				  height: auto;
+				  margin: auto;
+				  width: auto;
+				  text-align: center;
+				  display: block;
+				}
+			}
+			.foo-floorplan{
+				width: 100%;
+				margin: auto;
+				display: block;
+				bottom: 14px;
+				position: absolute;
+				left: 34px;
+			}
+		}
+		.visible_floorplan{
+			overflow: visible;
+			z-index: 10;
+			opacity: 1;
+			transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		}
+		.title-sm{
+			text-align: left;
+			position: relative;
+			left: 0;
+			top: 0;
+			z-index: 2;
+			width: 100%;
+			background-color: $green;
+			height: 150px;
+			display: table;
+
+			&::before{
+				content: "";
+				width: 0px;
+				height: 0px;
+				border-style: solid;
+				border-width: 20px 20px 20px 0px;
+				border-color: transparent #C2E6CA transparent transparent;
+				position: absolute;
+				left: 16%;
+				bottom: -30px;
+				transform: rotate(-90deg);
+				z-index: 3;
+			}
+
+			h1, h3{
+				font-size: 25px;
+				line-height: 30px;
+				left: 25px;
+				position: relative;
+				padding: 20px 0;
+				display: table-cell;
+				vertical-align: middle;
+				color: $gold;
+				font-family: $font-title;
+				font-style: italic;
+			}
+			h3{
+				padding: 0;
+			}
+			.download-mobile{
+				text-decoration: underline;
+				left: 25px;
+				position: relative;
+			}
+			.align{
+				display: table-cell;
+  			vertical-align: middle;
+			}
+		}
+	}
+	.availability-home-mobile{
+
+		position: relative;
+
+		.img-cover{
+			background-image: url(../img/img-mobile-availability.jpg);
+			width: 100%;
+			height: 490px;
+			position: relative;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: table;
+			background-position: center center;
+			z-index: 1;
+		}
+		.nav{
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.button, .btn-residences, .btn-offices{
+			margin: 30px 0;
+			display: block;
+			width: 148px;
+			height: 38px;
+			padding: 0;
+			opacity: 1;
+			overflow: visible;
+			z-index: 2;
+			transition: all 0 cubic-bezier(0.785, 0.135, 0.15, 0.86);
+
+			&:hover{
+				padding: 0;
+				background-color: $color-menu;
+			}
+		}
+		.hide_availability_buttons{
+			overflow: hidden;
+			opacity: 0;
+			transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+			z-index: -2;
+		}
+		.align{
+			display: block;
+			margin: auto;
+			width: 148px;
+		}
+	}
+	.list-residences-mobile, .list-offices-mobile{
+		height: 640px;
+		position: absolute;
+		top: 118px;
+		width: 100%;
+		overflow: hidden;
+		opacity: 0;
+		transition: all 0 cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		z-index: -2;
+	}
+	.visible_select_floor{
+		overflow: visible;
+		opacity: 1;
+		transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		z-index: 3;
+	}
+	.content-search{
+		background-color: $grey;
+		height: 58px;
+		line-height: 58px;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		overflow: hidden;
+		opacity: 0;
+		transition: all 0 cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		z-index: -2;
+
+		a{
+			color: $color-base;
+			font-size: 14px;
+			font-weight: 600;
+			width: 100%;
+			position: relative;
+
+			span{
+				display: inline-block;
+				font-size: 40px;
+				font-family: $font-base;
+				position: absolute;
+				font-weight: 300;
+				margin: 0 -35px;
+				top: -20px;
+				width: 35px;
+			}
+		}
+	}
+	.show_search{
+		overflow: visible;
+		opacity: 1;
+		transition: all 600ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		z-index: 11;
+	}
+	.wrapper{
+		position: absolute;
+		width: 100%;
+		text-align: center;
+		margin: auto;
+		top: 45%;
+	}
+
+	.bg-arrow-up{
+		position: relative;
+		display: inline-block;
+		margin: 0 0 0 -22px;
+		width: 30px;
+		height: 30px;
+
+
+		&::after{
+			content:"";
+			height: 15px;
+			width: 2px;
+			background-color: $gold;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			@include animationAll(.4s);
+		}
+		&::before{
+			content:"";
+			height: 15px;
+			width: 2px;
+			right: 10px;
+			background-color: $gold;
+			position: absolute;
+			top: 0;
+			transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			@include animationAll(.4s);
+		}
+	}
+	.bg-arrow-down{
+		display: inline-block;
+		position: relative;
+		margin: 15px 0 0 -22px;
+		width: 30px;
+		height: 30px;
+
+		&::after{
+			content:"";
+			height: 15px;
+			width: 2px;
+			background-color: $gold;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			@include animationAll(.4s);
+		}
+		&::before{
+			content:"";
+			height: 15px;
+			width: 2px;
+			right: 10px;
+			background-color: $gold;
+			position: absolute;
+			top: 0;
+			transform: rotate(135deg);
+			-ms-transform: rotate(135deg);
+			@include animationAll(.4s);
+		}
+	}
+
+	.wll-wrapper{
+		width:150px;
+		height:110px;
+		overflow: hidden;
+		position: relative;
+		margin: auto;
+		padding: 15px;
+	}
+
+	.wll-wrapper ul{
+		padding:0;
+		z-index:10;
+		position: relative;
+	}
+
+	.wll-wrapper li{
+		color:black;
+		transition:all 0.3s ease;
+		-webkit-transition:all 0.3s ease;
+		margin:0;
+		text-align: center;
+		-webkit-transform:scale(1);
+		transform:scale(1);
+		pointer-events:none;
+	}
+
+	.wll-wrapper a{
+		color: $white;
+		font-size: 16px;
+		font-family: $font-base;
+		font-weight: 600;
+		opacity: 1;
+	}
+	.wll-wrapper li.active{
+		color:white;
+		/*background-color: #ba9155;*/
+		opacity: 1;
+		-webkit-transform:scale(1.5);
+		transform:scale(1.5);
+		pointer-events: inherit;
+	}
+
+	.wll-wrapper:before{
+		content:'';
+		display:block;
+		position: absolute;
+		left:0;
+		right:0;
+		top:50%;
+		height:50px;
+		z-index: 9;
+		background-color: #ba9155;
+		transform: translateY(-50%);
+		-webkit-transform: translateY(-50%);
+	}
+}
+@media #{$medium-only} {
+	.availability {
+
+		.content-availability {
+
+			.content-left{
+				width: 100%;
+
+				.title-mobile{
+					background-color: $green;
+					height: 163px;
+					display: table;
+					position: absolute;
+					z-index: 1;
+					width: 100%;
+
+					&::before{
+						content: "";
+						width: 0px;
+						height: 0px;
+						border-style: solid;
+						border-width: 20px 20px 20px 0px;
+						border-color: transparent #C2E6CA transparent transparent;
+						position: absolute;
+						left: 16%;
+						bottom: -30px;
+						transform: rotate(-90deg);
+					}
+
+					.align{
+						display: table-cell;
+						vertical-align: middle;
+					}
+					h1{
+						margin: auto;
+						display: block;
+						max-width: 660px;
+						letter-spacing: 1px;
+						line-height: 50px;
+					}
+				}
+				.point{
+					@include animationAll(.4s);
+					opacity:1;
+
+					&::before{
+						content:"";
+						opacity:1;
+					}
+					span{
+						opacity: 1;
+						display: block;
+						z-index: 1;
+
+						h2{
+							opacity:1;
+						}
+						h3{
+							opacity:1;
+						}
+					}
+				}
+			}
+			.content-right{
+				display: none;
+
+				.box-green{
+					display: none;
+				}
+				figure{
+					display:none;
+				}
+			}
+			.content-info-offices, .content-info-residences{
+
+				.content-left{
+
+					.close-floorplans{
+						position: absolute;
+						right: 0;
+						top:0;
+
+						span{
+							position: relative;
+						}
+					}
+					.arrow-vector{
+						font-size: 14px;
+						position: absolute;
+						right: 0;
+						top: 20px;
+						@include animationAll(.4s);
+						color: $color-base;
+
+
+						span{
+							position: absolute;
+							left: -57px;
+							top: -4px;
+							width: 40px;
+							height: 30px;
+
+							&::after{
+								content:"";
+								height: 10px;
+								width: 1px;
+								top: 12px;
+								right: 10px;
+								background-color: $color-base;
+							}
+							&::before{
+								content:"";
+								height: 10px;
+								width: 1px;
+								right: 10px;
+								top: 5px;
+								background-color: $color-base;
+							}
+						}
+						&:hover span::after, &:hover span::before{
+							background-color: $gold;
+							color: $gold;
+							@include animationAll(.4s);
+						}
+						&:hover{
+							color: $gold;
+						}
+					}
+					figure{
+						width: 100%;
+						left: -39%
+					}
+					.titles{
+						text-align: left;
+						position: absolute;
+						left: 0;
+						width: 100%;
+						background-color: $green;
+						height: 163px;
+
+						.align{
+							position: relative;
+						}
+						&::before{
+							content: "";
+							width: 0px;
+							height: 0px;
+							border-style: solid;
+							border-width: 20px 20px 20px 0px;
+							border-color: transparent #C2E6CA transparent transparent;
+							position: absolute;
+							left: 16%;
+							bottom: -30px;
+							transform: rotate(-90deg);
+						}
+
+						h2{
+							margin: 47px 0px 3px;
+							color: $gold;
+							font-family: $font-title;
+							font-style: italic;
+						}
+					}
+				}
+				.content-right{
+					display: block;
+					position: relative;
+					top: 0px;
+					right: -100%;
+					z-index: 10;
+					width: 80%;
+					transition: all 1200ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+					box-shadow: -45px 0 45px 5px rgba(9, 9, 9, 0.48);
+
+					.list-floorplan a h4{
+						font-size: 18px;
+					}
+
+					&::before{
+						content: "";
+						display: none;
+					}
+					.select-floor{
+						color: $white;
+						font-size: 14px;
+						font-weight: 400;
+						transform: rotate(-90deg);
+						position: absolute;
+						left: -64px;
+						z-index: 10;
+						top: 50%;
+						margin: 0;
+
+						a{
+							color: $white;
+						}
+						span{
+							position: absolute;
+							right: auto;
+							top: -13px;
+							width: 40px;
+							height: 30px;
+							transform: rotate(90deg);
+							left: 91px;
+
+							&::after{
+								content:"";
+								height: 10px;
+								width: 1px;
+								top: 12px;
+								right: 10px;
+								display: block;
+								background-color: $white;
+							}
+							&::before{
+								content:"";
+								height: 10px;
+								width: 1px;
+								right: 10px;
+								top: 5px;
+								display: block;
+								background-color: $white;
+
+							}
+						}
+						&:hover span::after, &:hover span::before{
+							background-color: $white;
+						}
+					}
+					.select-floor.arrow-vector{
+						opacity: 1;
+						overflow: visible;
+						right: auto;
+					}
+				}
+				.visible-floor{
+					right: 0;
+
+					.overlay{
+						left: 0px;
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						background-color: rgba(255, 255, 255, 0);
+						top: 118px;
+						z-index: -1;
+					}
+				}
+			}
+			.visible_building{
+				overflow: hidden;
+			}
+		}
+	}
+}

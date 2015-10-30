@@ -1,0 +1,1284 @@
+Last login: Fri Mar 13 10:46:39 on ttys000
+^[[Aar-web-267:~ guillercd /Users/guillermo/Sites/sorgente-development 
+ar-web-267:sorgente-development guillermo$ grunt
+Running "sass:dist" (sass) task
+
+Running "autoprefixer:no_dest" (autoprefixer) task
+File app/css/app.css created.
+
+Running "csscomb:examples" (csscomb) task
+>> Using custom config file "/Users/guillermo/Sites/sorgente-development/.csscomb.json"...
+>> Sorting file "app/css/app.css"...
+>> Sorting file "app/css/app_override.css"...
+>> Sorting file "app/css/foundation.css"...
+
+Running "csslint:lax" (csslint) task
+Linting app/css/app.css...ERROR
+[L43:C144]
+WARNING: Heading (h1) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C206]
+WARNING: Heading (h4) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C271]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C227]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L173:C91]
+>> ERROR: Expected LBRACE at line 173, col 91. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C55]
+>> ERROR: Expected LBRACE at line 173, col 55. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C66]
+>> ERROR: Expected LBRACE at line 173, col 66. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C66]
+>> ERROR: Unexpected token '56.313em' at line 173, col 66. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C74]
+>> ERROR: Unexpected token ')' at line 173, col 74. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C44]
+>> ERROR: Expected RPAREN at line 173, col 44. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C80]
+>> ERROR: Unexpected token '(' at line 173, col 80. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C55]
+>> ERROR: Unexpected token '(' at line 173, col 55. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C91]
+>> ERROR: Unexpected token '64em' at line 173, col 91. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C95]
+>> ERROR: Unexpected token ')' at line 173, col 95. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C96]
+>> ERROR: Unexpected token ')' at line 173, col 96. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C98]
+>> ERROR: Unexpected token '{' at line 173, col 98. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L173:C80]
+>> ERROR: Expected LBRACE at line 173, col 80. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L197:C1]
+>> ERROR: Unexpected token '}' at line 197, col 1. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C25]
+>> ERROR: Expected RPAREN at line 199, col 25. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C36]
+>> ERROR: Expected LBRACE at line 199, col 36. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C36]
+>> ERROR: Unexpected token '(' at line 199, col 36. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C47]
+>> ERROR: Expected LBRACE at line 199, col 47. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C47]
+>> ERROR: Unexpected token '56.313em' at line 199, col 47. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C55]
+>> ERROR: Unexpected token ')' at line 199, col 55. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C61]
+>> ERROR: Expected LBRACE at line 199, col 61. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C61]
+>> ERROR: Unexpected token '(' at line 199, col 61. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C72]
+>> ERROR: Expected LBRACE at line 199, col 72. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C72]
+>> ERROR: Unexpected token '64em' at line 199, col 72. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C76]
+>> ERROR: Unexpected token ')' at line 199, col 76. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C77]
+>> ERROR: Unexpected token ')' at line 199, col 77. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C83]
+>> ERROR: Expected LBRACE at line 199, col 83. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C83]
+>> ERROR: Unexpected token '(' at line 199, col 83. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C95]
+>> ERROR: Expected LBRACE at line 199, col 95. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C95]
+>> ERROR: Unexpected token '80em' at line 199, col 95. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C99]
+>> ERROR: Unexpected token ')' at line 199, col 99. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L199:C101]
+>> ERROR: Unexpected token '{' at line 199, col 101. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L223:C1]
+>> ERROR: Unexpected token '}' at line 223, col 1. This rule looks for recoverable syntax errors. (errors) Browsers: All
+[L255:C1]
+WARNING: The properties padding-top, padding-bottom, padding-left, padding-right can be replaced by padding. Use shorthand properties where possible. (shorthand) Browsers: All
+[L315:C25]
+WARNING: Heading (h1) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L342:C15]
+WARNING: Heading (h4) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L371:C3]
+WARNING: The property -moz-transform is compatible with -webkit-transform and -ms-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L371:C3]
+WARNING: The property -o-transform is compatible with -webkit-transform and -ms-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L386:C18]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L437:C21]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L477:C9]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L510:C9]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[GENERAL]
+WARNING: Too many font-size declarations (17), abstraction needed. Checks the number of font-size declarations. (font-sizes) Browsers: All
+[GENERAL]
+WARNING: Too many floats (12), you're probably using them for layout. Consider using a grid system instead. This rule tests if the float property is used too many times (floats) Browsers: All
+Warning: Task "csslint:lax" failed. Use --force to continue.
+
+Aborted due to warnings.
+ar-web-267:sorgente-development guillermo$ grunt
+Running "sass:dist" (sass) task
+
+Running "autoprefixer:no_dest" (autoprefixer) task
+File app/css/app.css created.
+
+Running "csscomb:examples" (csscomb) task
+>> Using custom config file "/Users/guillermo/Sites/sorgente-development/.csscomb.json"...
+>> Sorting file "app/css/app.css"...
+>> Sorting file "app/css/app_override.css"...
+>> Sorting file "app/css/foundation.css"...
+
+Running "csslint:lax" (csslint) task
+Linting app/css/app.css...ERROR
+[L43:C144]
+WARNING: Heading (h1) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C227]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C271]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L43:C206]
+WARNING: Heading (h4) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L203:C1]
+WARNING: The properties padding-top, padding-bottom, padding-left, padding-right can be replaced by padding. Use shorthand properties where possible. (shorthand) Browsers: All
+[L263:C25]
+WARNING: Heading (h1) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L290:C15]
+WARNING: Heading (h4) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L319:C3]
+WARNING: The property -moz-transform is compatible with -webkit-transform and -ms-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L319:C3]
+WARNING: The property -o-transform is compatible with -webkit-transform and -ms-transform and should be included as well. Include all compatible vendor prefixes to reach a wider range of users. (compatible-vendor-prefixes) Browsers: All
+[L334:C18]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L385:C21]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L425:C9]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[L458:C9]
+WARNING: Heading (h2) should not be qualified. Headings should not be qualified (namespaced). (qualified-headings) Browsers: All
+[GENERAL]
+WARNING: Too many font-size declarations (17), abstraction needed. Checks the number of font-size declarations. (font-sizes) Browsers: All
+[GENERAL]
+WARNING: Too many floats (12), you're probably using them for layout. Consider using a grid system instead. This rule tests if the float property is used too many times (floats) Browsers: All
+>> 1 file lint free.
+
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Running "jshint:all" (jshint) task
+>> 2 files lint free.
+
+Running "connect:app" (connect) task
+Started connect web server on http://127.0.0.1:9000
+
+Running "watch" task
+Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.001s at Fri Mar 13 2015 16:15:17 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:15:26 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:15:32 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:15:39 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.208s at Fri Mar 13 2015 16:16:04 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:16:04 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.203s at Fri Mar 13 2015 16:17:09 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:17:09 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.191s at Fri Mar 13 2015 16:17:37 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:17:37 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.187s at Fri Mar 13 2015 16:17:56 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:17:57 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.160s at Fri Mar 13 2015 16:18:06 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.244s at Fri Mar 13 2015 16:18:38 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:18:38 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.674s at Fri Mar 13 2015 16:19:53 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.172s at Fri Mar 13 2015 16:20:00 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.167s at Fri Mar 13 2015 16:20:40 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:20:41 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.174s at Fri Mar 13 2015 16:20:46 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.156s at Fri Mar 13 2015 16:21:05 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:21:05 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.168s at Fri Mar 13 2015 16:21:15 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.152s at Fri Mar 13 2015 16:21:35 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:21:35 GMT-0300 (ART) - Waiting...
+>> File "app/templates/layouts/default.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.587s at Fri Mar 13 2015 16:23:08 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/layouts/default.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.576s at Fri Mar 13 2015 16:23:49 GMT-0300 (ART) - Waiting...
+>> File "app/templates/layouts/default.hbs" changed.
+>> File "app/index.html" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.151s at Fri Mar 13 2015 16:24:31 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:24:31 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.215s at Fri Mar 13 2015 16:24:48 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:24:49 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.577s at Fri Mar 13 2015 16:25:03 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.151s at Fri Mar 13 2015 16:25:13 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:25:14 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.208s at Fri Mar 13 2015 16:25:50 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:25:50 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.171s at Fri Mar 13 2015 16:26:12 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.185s at Fri Mar 13 2015 16:27:04 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:27:05 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.385s at Fri Mar 13 2015 16:27:20 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:27:20 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.157s at Fri Mar 13 2015 16:28:06 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:28:06 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.174s at Fri Mar 13 2015 16:28:11 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.173s at Fri Mar 13 2015 16:28:27 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.203s at Fri Mar 13 2015 16:28:52 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:28:52 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.174s at Fri Mar 13 2015 16:29:08 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.157s at Fri Mar 13 2015 16:29:16 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:29:16 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.167s at Fri Mar 13 2015 16:29:25 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.172s at Fri Mar 13 2015 16:29:45 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:29:46 GMT-0300 (ART) - Waiting...
+>> File "app/templates/layouts/default.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 3.434s at Fri Mar 13 2015 16:30:22 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/layouts/default.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.539s at Fri Mar 13 2015 16:30:53 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/layouts/default.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 3.615s at Fri Mar 13 2015 16:39:48 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 29.228s at Fri Mar 13 2015 16:48:21 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:48:21 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 13.265s at Fri Mar 13 2015 16:49:01 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:49:02 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.219s at Fri Mar 13 2015 16:51:41 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:51:41 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.191s at Fri Mar 13 2015 16:53:03 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:53:03 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.603s at Fri Mar 13 2015 16:54:19 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:54:20 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.183s at Fri Mar 13 2015 16:54:37 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:54:37 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.185s at Fri Mar 13 2015 16:58:51 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 16:58:52 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.925s at Fri Mar 13 2015 17:00:50 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:00:50 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.189s at Fri Mar 13 2015 17:01:12 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:01:13 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.175s at Fri Mar 13 2015 17:02:46 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.188s at Fri Mar 13 2015 17:04:03 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:04:04 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.135s at Fri Mar 13 2015 17:06:35 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:06:35 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.234s at Fri Mar 13 2015 17:06:57 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:06:57 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.193s at Fri Mar 13 2015 17:07:40 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:07:40 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.186s at Fri Mar 13 2015 17:08:53 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:08:54 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.403s at Fri Mar 13 2015 17:09:20 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:09:20 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.222s at Fri Mar 13 2015 17:10:07 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:10:07 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.190s at Fri Mar 13 2015 17:10:20 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:10:20 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 5.049s at Fri Mar 13 2015 17:10:46 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:10:46 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 18.261s at Fri Mar 13 2015 17:11:48 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:11:48 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 17.018s at Fri Mar 13 2015 17:13:55 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:13:56 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.144s at Fri Mar 13 2015 17:14:25 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:14:25 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.180s at Fri Mar 13 2015 17:14:44 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:14:44 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.197s at Fri Mar 13 2015 17:15:55 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:15:56 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.173s at Fri Mar 13 2015 17:16:27 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.169s at Fri Mar 13 2015 17:16:38 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 4.824s at Fri Mar 13 2015 17:17:53 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:17:53 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+Warning: /Users/guillermo/Sites/sorgente-development/app/scss/layout/header:117: invalid property name
+ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 2.483s at Fri Mar 13 2015 17:19:26 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+Warning: /Users/guillermo/Sites/sorgente-development/app/scss/layout/header:116: invalid property name
+ Use --force to continue.
+
+Aborted due to warnings.
+Completed in 2.215s at Fri Mar 13 2015 17:19:29 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.174s at Fri Mar 13 2015 17:19:36 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:19:37 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.174s at Fri Mar 13 2015 17:20:50 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.220s at Fri Mar 13 2015 17:21:07 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:21:07 GMT-0300 (ART) - Waiting...
+>> File "app/scss/layout/_header.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.176s at Fri Mar 13 2015 17:21:12 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:21:12 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.902s at Fri Mar 13 2015 17:23:49 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:23:50 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.791s at Fri Mar 13 2015 17:25:02 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+>> File "app/index.html" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.630s at Fri Mar 13 2015 17:26:07 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.545s at Fri Mar 13 2015 17:26:29 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.220s at Fri Mar 13 2015 17:29:30 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:29:30 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.183s at Fri Mar 13 2015 17:29:38 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:29:39 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.194s at Fri Mar 13 2015 17:29:46 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:29:46 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 5.553s at Fri Mar 13 2015 17:31:14 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:31:15 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.547s at Fri Mar 13 2015 17:31:26 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.549s at Fri Mar 13 2015 17:31:38 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.558s at Fri Mar 13 2015 17:31:53 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 5.979s at Fri Mar 13 2015 17:32:45 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:32:45 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 5.586s at Fri Mar 13 2015 17:33:47 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/scss/_settings.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 4.586s at Fri Mar 13 2015 17:38:29 GMT-0300 (ART) - Waiting...
+>> File "app/scss/_settings.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.223s at Fri Mar 13 2015 17:38:56 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:38:56 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:40:27 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.679s at Fri Mar 13 2015 17:43:53 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:43:53 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.167s at Fri Mar 13 2015 17:43:59 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.161s at Fri Mar 13 2015 17:44:12 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:44:12 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.170s at Fri Mar 13 2015 17:44:20 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+>> File "app/css/foundation.css" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.195s at Fri Mar 13 2015 17:44:23 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:44:24 GMT-0300 (ART) - Waiting...
+>> File "app/templates/pages/index.hbs" changed.
+Running "assemble:pages" (assemble) task
+Assembling app/index.html OK
+>> 1 pages assembled.
+
+Running "wiredep:target" (wiredep) task
+
+Done, without errors.
+Completed in 2.575s at Fri Mar 13 2015 17:45:35 GMT-0300 (ART) - Waiting...
+>> File "app/index.html" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.227s at Fri Mar 13 2015 17:45:54 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:45:54 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.164s at Fri Mar 13 2015 17:46:05 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:46:05 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.150s at Fri Mar 13 2015 17:46:30 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:46:30 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.178s at Fri Mar 13 2015 17:47:36 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:47:36 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.192s at Fri Mar 13 2015 17:47:44 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:47:44 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.212s at Fri Mar 13 2015 17:48:26 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 4.380s at Fri Mar 13 2015 17:48:28 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:48:29 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.438s at Fri Mar 13 2015 17:59:40 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:59:40 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.196s at Fri Mar 13 2015 17:59:47 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 17:59:47 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.183s at Fri Mar 13 2015 17:59:52 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.001s at Fri Mar 13 2015 17:59:52 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.190s at Fri Mar 13 2015 18:00:17 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:00:18 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.191s at Fri Mar 13 2015 18:00:39 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:00:39 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.161s at Fri Mar 13 2015 18:00:44 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.159s at Fri Mar 13 2015 18:00:52 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:00:52 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.167s at Fri Mar 13 2015 18:01:00 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.179s at Fri Mar 13 2015 18:01:29 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.169s at Fri Mar 13 2015 18:01:37 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.193s at Fri Mar 13 2015 18:02:43 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:02:43 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.180s at Fri Mar 13 2015 18:03:16 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:03:16 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.190s at Fri Mar 13 2015 18:03:50 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.001s at Fri Mar 13 2015 18:03:50 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.183s at Fri Mar 13 2015 18:04:08 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:04:08 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.210s at Fri Mar 13 2015 18:04:35 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:04:35 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 3.316s at Fri Mar 13 2015 18:05:30 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:05:30 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.183s at Fri Mar 13 2015 18:05:34 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:05:34 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.228s at Fri Mar 13 2015 18:05:46 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:05:46 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.190s at Fri Mar 13 2015 18:05:50 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:05:51 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.197s at Fri Mar 13 2015 18:06:21 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:06:21 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 16.545s at Fri Mar 13 2015 18:08:14 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:08:14 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 10.042s at Fri Mar 13 2015 18:09:38 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:09:38 GMT-0300 (ART) - Waiting...
+>> File "app/scss/base/_base.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 7.090s at Fri Mar 13 2015 18:11:57 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:11:57 GMT-0300 (ART) - Waiting...
+>> File "app/scss/pages/_home.scss" changed.
+Running "sass:dist" (sass) task
+
+Done, without errors.
+Completed in 2.148s at Fri Mar 13 2015 18:13:06 GMT-0300 (ART) - Waiting...
+>> File "app/css/app.css" changed.
+>> File "app/css/foundation.css" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:13:06 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:16:11 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:16:13 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:20:20 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:20:25 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:20:33 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:20:50 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:21:00 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:21:02 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:21:05 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:21:57 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:22:02 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:22:17 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:22:24 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:23:20 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:23:30 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:25:51 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:25:58 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:26:09 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:26:11 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:26:26 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:26:27 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:26:40 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:29:19 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:29:35 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:29:46 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:29:48 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:29:52 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:30:04 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:30:17 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:30:22 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:30:35 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:30:45 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:31:07 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:31:15 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:31:51 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:32:28 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:32:48 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:32:49 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:32:52 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:32:55 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:33:06 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:33:27 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:33:29 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:36:15 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:36:47 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:36:51 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:36:54 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:37:25 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:37:36 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:37:42 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:37:47 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:38:18 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:38:29 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.001s at Fri Mar 13 2015 18:38:45 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:39:43 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:40:37 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:40:48 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:41:17 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:41:31 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:42:18 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:42:19 GMT-0300 (ART) - Waiting...
+>> File "app/js/app.js" changed.
+Completed in 0.000s at Fri Mar 13 2015 18:43:05 GMT-0300 (ART) - Waiting...
+

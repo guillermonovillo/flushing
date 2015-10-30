@@ -1,0 +1,56 @@
+.Team footer{
+	margin: 46px 0 0 0;
+	padding: 20px 0 0 0;
+}
+.Team .bg-nav{
+	background-color: rgba(255,255,255,1);
+}
+.team{
+	margin: 118px 0 0 0;
+
+	.pattern{
+		height: 144px;
+	}
+	.title-40{
+		margin: -19px 0 0 0;
+		z-index: 1;
+		position: relative;
+		text-align: left;
+	}
+	.team-1{
+		@include sprite(icon-team-ft);
+		display: block;
+		margin: 60px auto 33px auto;
+	}
+	.team-2{
+		@include sprite(icon-team-rockefeller);
+		display: block;
+		margin: 60px auto 33px auto;
+	}
+	.team-3{
+		@include sprite(icon-team-aecom);
+		display: block;
+		margin: 60px auto 33px auto;
+	}
+	figure{
+		margin: 0;
+	}
+	p{
+		text-align: center;
+	}
+	a{
+		position: relative;
+		left: 42.5%;
+		margin: 32px 0 0 0;
+	}
+}
+@media #{$small-only} {
+	.team{
+		figure{
+			text-align: center;
+		}
+		a{
+			left: 0;
+		}
+	}
+}

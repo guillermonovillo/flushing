@@ -1,0 +1,551 @@
+/*Preloader*/ 
+.js div#preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999999999999999999999999999;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  background: #FFFFFF url('../images/loader.gif') no-repeat center center;
+}
+body{
+    overflow:hidden;
+	font-family: $txtBase;
+	font-weight: 400;
+	color: $colorBase;
+	font-size: 10px;
+	font-smoothing: auto;
+	-moz-font-smoothing: auto;
+	-webkit-font-smoothing: auto;
+	overflow: hidden;
+}
+#thank{
+	position:fixed;
+	bottom:-300%;
+	background: #FFFFFF;
+	text-align: center;
+	width: 100%;
+	z-index: 9;
+	opacity: 1;
+	padding: 3em 0;
+
+	.back{
+ 		position:absolute;
+ 		right: 3%;
+ 		top: 3%;
+ 		z-index:3;
+		@include animationAll(.3s);
+		background-image: url(../images/close.png);
+		width: 18px;
+		height: 80px;
+		cursor: pointer;
+		background-size: contain;
+	
+		&:hover{
+			@include animationAll(.6s);
+			background-image: url(../images/closeHover.png);
+		}
+	}
+	p{
+		@include text-size(1.6em);
+		margin:0;		
+	}
+	figure{
+		margin:0;
+
+		img{
+			width: 11%;
+  			min-width: 110px;
+  			margin: 3em 0 0 0;
+		}
+	}
+
+}
+.label_other{
+	margin-top:1.19em
+}
+.opa50{
+	opacity:.5
+}
+.txtLight{
+	font-family: $txtBase;
+	font-weight: 300;
+}
+.txtReg{
+	font-family: $txtBase;
+	font-weight: 400;
+}
+.txtMed{
+	font-family: $txtBase;
+	font-weight: 600;
+}
+.pL0{
+	padding-left:0!important
+}
+.pR0{
+	padding-right:0!important
+}
+.p015{
+	padding: 0 15px
+}
+.fl{
+	float:left!important
+}
+.mT15{
+	margin-top: 1.5em;
+}
+.t-16{
+	top: -16px;
+}
+.t18{
+	top: 18px;
+}
+.absolute{
+	position: absolute;
+}
+.relative{
+	position: relative;
+}
+.slick-prev{
+	left:25px;
+}
+.slick-next{
+	right:20px;
+}
+.imgFade1{
+	background-image: url(../images/imgFade1.jpg);
+	background-position: fixed center center;
+	background-repeat: no-repeat;
+	width: 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	z-index: 1;
+	height: 100vh;
+}
+.imgFade2{
+	background-image: url(../images/imgFade2.jpg);
+	background-position: fixed center center;
+	background-repeat: no-repeat;
+	width: 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	z-index: 1;
+	height: 100vh;
+}
+.imgFade3{
+	background-image: url(../images/imgFade3.jpg) ;
+	background-position: fixed center center;
+	background-repeat: no-repeat;
+	width: 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	z-index: 1;
+	height: 100vh;
+}
+.imgFade4{
+	background-image: url(../images/imgFade4.jpg);
+	background-position: fixed center center;
+	background-repeat: no-repeat;
+	width: 50%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	z-index: 1;
+	height: 100vh;
+}
+.columLeft{
+	width: 50%; 
+	height: auto;
+  	float: left;
+}
+.ondasLeft{
+	background: url(../images/pettern.png);
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 30%;
+	height: 100%;
+	background-repeat: repeat
+}
+
+.pattern{
+	background: url(../images/pettern.png);
+	position:absolute;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	right:14px;
+	background-repeat: repeat
+}
+.content{
+	background: #FFFFFF;
+    width: 33%;
+    height: 100%;
+    position: absolute;
+    left: 17%;	
+}
+.bgBlack{
+	position:fixed;
+	width:100%;
+	right: -100%;
+	opacity:0;
+	top:0;
+	height: 100%;
+	background: #000000;
+	z-index:8;
+}
+.bgBlack-thank{
+	position:fixed;
+	width:100%;
+	bottom: -100%;
+	opacity:0;
+	height: 100%;
+	background: #000000;
+	z-index:8;
+}
+#disclaimer{
+	position: fixed;
+	height: 100%;
+	width:50%;
+	background: #FFFFFF;
+	text-align:center;
+	left:-100%;
+	opacity:0;
+	top:0;
+	display: table;
+	z-index:9;
+
+	p{
+		font-family: $txtBase;
+		font-weight: 400;
+		@include text-size(1.4em);
+		position:relative;
+		display: table-cell;
+		vertical-align: middle;
+		padding:20%;
+	}
+	.back{
+ 		position:absolute;
+ 		right: 3%;
+ 		top: 3%;
+ 		z-index:3;
+		@include text-size(1.8em);
+		@include animationAll(.3s);
+		background-image: url(../images/close.png);
+		width: 18px;
+		height: 80px;
+		cursor: pointer;
+		background-size: contain;
+	
+		&:hover{
+			@include animationAll(.6s);
+			background-image: url(../images/closeHover.png);
+		}
+	}
+}
+div.content{
+	
+	text-align: center; 
+	
+		figure{
+			position: relative;
+			top: 1.5%
+		}
+
+		h1{
+			font-family: $txtBase;
+			font-weight: 300;
+			color: $colorBase;
+			@include text-size(2.8em);
+			position: relative;
+			top: 5%;
+			line-height: 38px
+		}
+		p{
+			font-family: $txtBase;
+			font-weight: 300;
+			color: $colorBase;
+			@include text-size(1.5em);
+			position: relative;
+			top: 6%;
+			line-height: 19px
+		}
+		#logo{
+			width:62%;
+			max-width:23em
+		}
+		hr{
+			background: #5c5c5c;
+			width: 12%;
+			height: 1px;
+			position: relative;
+			margin: auto;
+			top: 6.5%;
+		}
+		a.btn{
+			font-family: $txtBase;
+			@include text-size(1.5em);
+			font-weight: 600;
+			background: #dbebdf;
+			padding: 1.5% 2.5%;
+			color: #635c57;
+			position: relative;
+			top: 9.5%;
+			min-width: 200px;
+			width: 35%;
+			margin: auto;
+			display:block;
+			@include animationAll(.3s);
+			
+			&:hover{
+				background: #a0baa6!important;
+				color: #FFFFFF!important;
+				@include animationAll(.3s);
+			}
+		}
+		.arrowDown{
+			width: 100%;
+			position: absolute;
+			bottom: 12%;
+
+			img{
+				display: table-cell;
+				vertical-align: top;
+				margin: auto;
+			}
+		}
+		footer{
+			font-family: $txtBase;
+			@include text-size(1.1em);
+			position: absolute;
+			bottom: 15px;
+			width: 100%;
+			margin: auto;
+
+			span, span a {
+				@include animationAll(.3s);
+				cursor:pointer;
+				color: $colorBase;
+
+    			&:hover{
+    				color: #cc8228;
+    				@include animationAll(.6s);
+    				cursor:pointer;
+    			}
+
+			}
+		}
+		div.listImg{
+
+			width: 100%;
+			margin: auto;
+			position: absolute;
+			bottom: 5.5%;
+
+			ul{
+				list-style: none;
+				width:70%;
+				margin: auto;
+				left:3%;
+
+				li{
+					float:left;
+					display: inline-block;
+					width: 33%;
+					vertical-align:middle;	
+				}
+			}
+		}
+}
+.imgFades{
+	
+	width: 50%; 
+	height: auto;
+  	float: right;
+
+	h1{
+		font-family: $txtBase;
+		@include text-size(3.7em);
+		position: absolute;
+		font-weight: 300;
+		bottom: 8%;
+		right:8%;
+		width: 100%;
+		color:#FFFFFF;
+		text-align:right;
+		line-height: 1.1em;
+	}
+	span{
+		font-family: $txtBase;
+		@include text-size(1.3em);
+		position: absolute;
+		font-weight: 400;
+		bottom: 3%;
+		right:8%;
+		width: 100%;
+		color:#FFFFFF;
+		text-align:right
+	}
+}
+#form{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 100%;
+	text-align: center;
+	padding-bottom: 10%;	
+	color: $colorBase;
+	overflow:auto;
+	
+	label.error{
+		color: #cc8228!important;
+	}
+	.column, .columns{
+	  	padding-left: .4em;
+		padding-right: .4em;
+	}
+	.contentForm{
+		background: #FFFFFF;
+		text-align: center;
+		z-index: 1;
+		position: absolute;
+		width: 66%;
+		margin-left: 17.1%;
+		margin-right: 17%;
+     	padding-bottom: 4%;
+
+     	.back a{
+     		position:absolute;
+     		right: 3%;
+     		top: 3%;
+     		z-index:3;
+    		@include text-size(1.8em);
+			@include animationAll(.3s);
+			background-image: url(../images/close.png);
+			width: 18px;
+ 			height: 80px;
+			cursor: pointer;
+			background-size: contain;
+			-webkit-background-size: contain;
+
+			&:hover{
+				@include animationAll(.6s);
+				background-image: url(../images/closeHover.png);
+			}
+		}
+		figure{
+			margin: 0;
+			position: relative;
+			z-index: 2;
+
+			img{
+				width:16%;
+				margin:3% 0;
+			}
+		}
+		select{
+			background-color: #FFFFFF;
+			background-image: url(../images/arrowSelect.png);
+			background-position: absolute;
+		}
+		label, input, select, textarea{
+			font-family: $txtBase;
+			@include text-size(1.3em);
+			font-weight: 400;
+			border-width:1px;
+			border-color: $colorBase;
+			color: $colorBase;
+			box-shadow: none;
+			-webkit-box-shadow: none;
+		}
+		input, select{
+			height:35px
+		}
+		textarea{
+			min-height:14.8em;
+		}
+		.required{
+			font-size: 11px;
+			color: $colorBase!important;
+		}
+		button.btn{
+			font-family: $txtBase;
+			@include text-size(1.5em);
+			font-weight: 600;
+			background: #dbebdf;
+			padding: 1.5% 2.5%;
+			color: #635c57;
+			position: relative;
+			top: 18%;
+			min-width: 195px;
+			width: 19.5%;
+			float:right;
+			display:block;
+
+			&:hover{
+				background: #a0baa6!important;
+				color: #FFFFFF!important;
+				@include animationAll(.3s);
+			}
+			p{
+				position: absolute;
+				left: 0;
+				top:100%;
+				font-size: 11px;
+				color: $colorBase!important;
+				
+				&:hover{
+					color: $colorBase!important;
+					@include animationAll(.6s);
+				}
+
+			}
+		}
+		span{
+			margin-top: 1.8em;
+
+			img{
+				min-width:110px
+			}
+
+			p{
+				line-height: 18px;
+  				margin-top: 4%;
+
+  				a{
+  					@include animationAll(.3s);
+				cursor:pointer;
+				color: $colorBase;
+
+	    			&:hover{
+	    				color: #cc8228;
+	    				@include animationAll(.6s);
+	    				cursor:pointer;
+	    			}
+
+				}
+			}
+		}
+		footer{
+		    font-family: 'Open Sans', sans-serif;
+			font-size: 1.1em;
+			margin: auto;
+			text-align: left;
+			left:0;
+			margin-top: 3%;
+
+			span, span a {
+				@include animationAll(.3s);
+				cursor:pointer;
+				color: $colorBase;
+
+    			&:hover{
+    				color: #cc8228;
+    				@include animationAll(.6s);
+    				cursor:pointer;
+    			}
+
+			}
+		}
+	}
+}

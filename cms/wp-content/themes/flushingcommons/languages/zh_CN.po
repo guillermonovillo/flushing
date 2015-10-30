@@ -1,0 +1,838 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Flushing commons\n"
+"POT-Creation-Date: 2015-07-07 01:44-0300\n"
+"PO-Revision-Date: 2015-07-07 01:45-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../archive.php:49 ../index.php:46 ../search.php:38
+msgid "Previous page"
+msgstr ""
+
+#: ../archive.php:50 ../index.php:47 ../search.php:39
+msgid "Next page"
+msgstr ""
+
+#: ../archive.php:51 ../content-link.php:40 ../content-page.php:29
+#: ../content.php:42 ../image.php:63 ../index.php:48 ../search.php:40
+msgid "Page"
+msgstr ""
+
+#: ../author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: ../author-bio.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-link.php:31 ../content.php:33 ../inc/template-tags.php:237
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../content-link.php:36 ../content-page.php:25 ../content.php:38
+#: ../image.php:59
+msgid "Pages:"
+msgstr ""
+
+#: ../content-link.php:56 ../content-page.php:35 ../content-search.php:28
+#: ../content-search.php:33 ../content.php:57 ../image.php:71
+msgid "Edit"
+msgstr ""
+
+#: ../content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: ../content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../functions.php:85
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:86
+msgid "Social Links Menu"
+msgstr ""
+
+#: ../functions.php:133
+msgid "Widget Area"
+msgstr ""
+
+#: ../functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: ../functions.php:231
+msgid "expand child menu"
+msgstr ""
+
+#: ../functions.php:232
+msgid "collapse child menu"
+msgstr ""
+
+#: ../functions.php:399 ../functions.php:402
+msgid "Points"
+msgstr ""
+
+#: ../functions.php:400
+msgid "Point"
+msgstr ""
+
+#: ../functions.php:401
+msgid "Neighbourhood Point"
+msgstr ""
+
+#: ../functions.php:403
+msgid "Add New"
+msgstr ""
+
+#: ../functions.php:404
+msgid "Add New Point"
+msgstr ""
+
+#: ../functions.php:405
+msgid "New Point"
+msgstr ""
+
+#: ../functions.php:406
+msgid "Edit Point"
+msgstr ""
+
+#: ../functions.php:407
+msgid "View Point"
+msgstr ""
+
+#: ../functions.php:408
+msgid "All"
+msgstr ""
+
+#: ../functions.php:409
+msgid "Search"
+msgstr ""
+
+#: ../functions.php:410
+msgid "Parent Point :"
+msgstr ""
+
+#: ../functions.php:411
+msgid "No gallery found."
+msgstr ""
+
+#: ../functions.php:412
+msgid "No gallery found in Trash."
+msgstr ""
+
+#: ../image.php:24
+msgid "Previous Image"
+msgstr ""
+
+#: ../image.php:24
+msgid "Next Image"
+msgstr ""
+
+#: ../page-availability.php:34 ../page-availability.php:268
+msgid "Explore The Largest Project Going On In Flushing, New York"
+msgstr ""
+
+#: ../page-availability.php:43 ../page-availability.php:49 ../page-home.php:73
+#: ../page-home.php:86
+msgid "Explore"
+msgstr ""
+
+#: ../page-availability.php:44 ../page-availability.php:274
+msgid "Residences"
+msgstr ""
+
+#: ../page-availability.php:50 ../page-availability.php:275
+msgid "Offices"
+msgstr ""
+
+#: ../page-availability.php:76
+msgid "Explore <br>The Largest <br>Project Going On <br>In Flushing, New York"
+msgstr ""
+
+#: ../page-availability.php:90 ../page-availability.php:178
+msgid "Availability"
+msgstr ""
+
+#: ../page-availability.php:91
+msgid "Offices Availabilities"
+msgstr ""
+
+#: ../page-availability.php:93 ../page-availability.php:149
+#: ../page-availability.php:181 ../page-availability.php:237
+msgid "Select by Floor"
+msgstr ""
+
+#: ../page-availability.php:95 ../page-availability.php:183
+msgid "Go Back"
+msgstr ""
+
+#: ../page-availability.php:98 ../page-availability.php:186
+#: ../page-home.php:101
+msgid "Close"
+msgstr ""
+
+#: ../page-availability.php:103
+msgid "1st Floor"
+msgstr ""
+
+#: ../page-availability.php:105
+msgid "2nd Floor"
+msgstr ""
+
+#: ../page-availability.php:107
+msgid "3rd Floor"
+msgstr ""
+
+#: ../page-availability.php:109 ../page-availability.php:203
+msgid "4th Floor"
+msgstr ""
+
+#: ../page-availability.php:111 ../page-availability.php:205
+msgid "5th Floor"
+msgstr ""
+
+#: ../page-availability.php:113 ../page-availability.php:207
+msgid "6th Floor"
+msgstr ""
+
+#: ../page-availability.php:115 ../page-availability.php:209
+msgid "7th Floor"
+msgstr ""
+
+#: ../page-availability.php:117 ../page-availability.php:211
+msgid "8th Floor"
+msgstr ""
+
+#: ../page-availability.php:119 ../page-availability.php:213
+msgid "9th Floor"
+msgstr ""
+
+#: ../page-availability.php:121 ../page-availability.php:215
+msgid "10th Floor"
+msgstr ""
+
+#: ../page-availability.php:123 ../page-availability.php:217
+msgid "11th Floor"
+msgstr ""
+
+#: ../page-availability.php:125 ../page-availability.php:219
+msgid "12th Floor"
+msgstr ""
+
+#: ../page-availability.php:127 ../page-availability.php:221
+msgid "13th Floor"
+msgstr ""
+
+#: ../page-availability.php:153 ../page-availability.php:155
+#: ../page-availability.php:241 ../page-availability.php:243
+msgid "Back"
+msgstr ""
+
+#: ../page-availability.php:154 ../page-availability.php:242
+msgid "See all"
+msgstr ""
+
+#: ../page-availability.php:179
+msgid "Residences Availabilities"
+msgstr ""
+
+#: ../page-availability.php:223
+msgid "14th Floor"
+msgstr ""
+
+#: ../page-availability.php:225
+msgid "15th Floor"
+msgstr ""
+
+#: ../page-availability.php:227
+msgid "16th Floor"
+msgstr ""
+
+#: ../page-availability.php:229
+msgid "17th Floor"
+msgstr ""
+
+#: ../page-availability.php:280
+msgid "Search Again"
+msgstr ""
+
+#: ../page-availability.php:287 ../page-availability.php:341
+msgid "Choose Floor"
+msgstr ""
+
+#: ../page-availability.php:294 ../page-availability.php:350
+msgid "Floor 4"
+msgstr ""
+
+#: ../page-availability.php:295 ../page-availability.php:351
+msgid "Floor 5"
+msgstr ""
+
+#: ../page-availability.php:296 ../page-availability.php:352
+msgid "Floor 6"
+msgstr ""
+
+#: ../page-availability.php:297 ../page-availability.php:353
+msgid "Floor 7"
+msgstr ""
+
+#: ../page-availability.php:298 ../page-availability.php:354
+msgid "Floor 8"
+msgstr ""
+
+#: ../page-availability.php:299 ../page-availability.php:355
+msgid "Floor 9"
+msgstr ""
+
+#: ../page-availability.php:300 ../page-availability.php:356
+msgid "Floor 10"
+msgstr ""
+
+#: ../page-availability.php:301 ../page-availability.php:357
+msgid "Floor 11"
+msgstr ""
+
+#: ../page-availability.php:302
+msgid "Floor 12"
+msgstr ""
+
+#: ../page-availability.php:303
+msgid "Floor 13"
+msgstr ""
+
+#: ../page-availability.php:304
+msgid "Floor 14"
+msgstr ""
+
+#: ../page-availability.php:316 ../page-availability.php:369
+msgid "Choose Unit"
+msgstr ""
+
+#: ../page-availability.php:328 ../page-availability.php:382
+msgid "Download Floorplan"
+msgstr ""
+
+#: ../page-availability.php:348
+msgid "Floor 2"
+msgstr ""
+
+#: ../page-availability.php:349
+msgid "Floor 3"
+msgstr ""
+
+#: ../page-contact.php:30
+msgid "Contact Us"
+msgstr ""
+
+#: ../page-contact.php:40
+msgid "*Name"
+msgstr ""
+
+#: ../page-contact.php:43
+msgid "First"
+msgstr ""
+
+#: ../page-contact.php:46
+msgid "Middle"
+msgstr ""
+
+#: ../page-contact.php:49
+msgid "Last"
+msgstr ""
+
+#: ../page-contact.php:55
+msgid "*Address"
+msgstr ""
+
+#: ../page-contact.php:62
+msgid "City"
+msgstr ""
+
+#: ../page-contact.php:65
+msgid "State"
+msgstr ""
+
+#: ../page-contact.php:68
+msgid "Zip Code"
+msgstr ""
+
+#: ../page-contact.php:74
+msgid "*Email"
+msgstr ""
+
+#: ../page-contact.php:75
+msgid "Email"
+msgstr ""
+
+#: ../page-contact.php:78
+msgid "*Phone"
+msgstr ""
+
+#: ../page-contact.php:79
+msgid "Phone"
+msgstr ""
+
+#: ../page-contact.php:82
+msgid "Country"
+msgstr ""
+
+#: ../page-contact.php:84 ../page-contact.php:97 ../page-contact.php:110
+msgid "CHOOSE ONE"
+msgstr ""
+
+#: ../page-contact.php:93
+msgid "Are you represented By a Broker?"
+msgstr ""
+
+#: ../page-contact.php:98
+msgid "YES"
+msgstr ""
+
+#: ../page-contact.php:99
+msgid "NO"
+msgstr ""
+
+#: ../page-contact.php:106
+msgid "How Did Your Hear About Flushing Commons?"
+msgstr ""
+
+#: ../page-contact.php:111
+msgid "NEWSPAPER"
+msgstr ""
+
+#: ../page-contact.php:112
+msgid "REAL STATE AGENT"
+msgstr ""
+
+#: ../page-contact.php:113
+msgid "FAMILY OR FRIEND"
+msgstr ""
+
+#: ../page-contact.php:114
+msgid "WEALTH MANAGER/INVESTMENT ADVISOR/ LAWYER"
+msgstr ""
+
+#: ../page-contact.php:115
+msgid "E-MAIL/NESWSLETTER"
+msgstr ""
+
+#: ../page-contact.php:116
+msgid "INTERNET"
+msgstr ""
+
+#: ../page-contact.php:117
+msgid "OTHER"
+msgstr ""
+
+#: ../page-contact.php:124
+msgid "Comments"
+msgstr ""
+
+#: ../page-contact.php:131
+msgid "SECURE YOUR PLACE"
+msgstr ""
+
+#: ../page-contact.php:132
+msgid "*Required"
+msgstr ""
+
+#: ../page-contact.php:164
+msgid ""
+"Thank You for your interest in Flushing Commons. We will contact you shortly."
+msgstr ""
+
+#: ../page-home.php:35
+msgid "A Crowning Achievement"
+msgstr ""
+
+#: ../page-home.php:36
+msgid ""
+"Flushing Commons is a crowning achievement. F&T Group, The Rockefeller "
+"Group, and AECOM Capital are proud to introduce a new standard of luxury at "
+"the most distinguished address in Flushing."
+msgstr ""
+
+#: ../page-home.php:37
+msgid "About The Project"
+msgstr ""
+
+#: ../page-home.php:48
+msgid "The Most<br />Distinguished Address<br />in Flushing"
+msgstr ""
+
+#: ../page-home.php:49
+msgid ""
+"Flushing Commons is a community on the rise, one that will only grow in "
+"importance and prestige over time."
+msgstr ""
+
+#: ../page-home.php:65
+msgid "Live At <br>Flushing Commons <br>Residences"
+msgstr ""
+
+#: ../page-home.php:67
+msgid ""
+"Residences at Flushing Commons were built to higher standards of quality and "
+"furnished with premium finishes hand-picked by award-winning architectural "
+"and interior firm Perkins Eastman."
+msgstr ""
+
+#: ../page-home.php:72
+msgid "Live"
+msgstr ""
+
+#: ../page-home.php:78
+msgid "Work At <br>Flushing Commons <br>Offices"
+msgstr ""
+
+#: ../page-home.php:85
+msgid "Work"
+msgstr ""
+
+#: ../page-home.php:93
+msgid "The Project"
+msgstr ""
+
+#: ../page-home.php:94
+msgid ""
+"It is a manifestation of a vision conceived by three partners at the top of "
+"their respective fields. 1.8-million-square-foot, mixed-use development "
+"designed by Perkins Eastman is being built by Tishman Construction and will "
+"facilitate economic advancement and community growth. Flushing Commons "
+"features an open-air public plaza with outdoor cafés, restaurants and shops "
+"– a central gathering place perfect for families and friends to meet and "
+"enjoy community events and performances."
+msgstr ""
+
+#: ../page-home.php:95
+msgid "View Project Features"
+msgstr ""
+
+#: ../page-home.php:102
+msgid "PROJECT FEATURES"
+msgstr ""
+
+#: ../page-home.php:104
+msgid ""
+"Acre open-air public plaza with outdoor café, restaurants and shops—a "
+"central gathering place, perfect for families and friends to meet and enjoy "
+"community events and performances"
+msgstr ""
+
+#: ../page-home.php:105
+msgid "Parking spaces for residents and visitors complete with valet service"
+msgstr ""
+
+#: ../page-home.php:106
+msgid "Year ICAP tax abatement program for commercial space"
+msgstr ""
+
+#: ../page-home.php:107
+msgid ""
+"Proposed square foot YMCA featuring a state-of-the art indoor swimming pool, "
+"basketball courts, fitness centers, running track and daycare"
+msgstr ""
+
+#: ../page-home.php:108
+msgid ""
+"Premium one, two, three and four bedroom residences in Phase One, followed "
+"by 450 units proposed for Phase Two"
+msgstr ""
+
+#: ../page-home.php:109
+msgid ""
+"Square feet of prime medical and professional office condominiums for sale"
+msgstr ""
+
+#: ../page-home.php:110
+msgid "15-year tax abatement program for residences"
+msgstr ""
+
+#: ../page-home.php:111
+msgid "Square feet of prime retail opportunities"
+msgstr ""
+
+#: ../page-home.php:124
+msgid "Units proposed for Phase Two."
+msgstr ""
+
+#: ../page-home.php:131
+msgid ""
+"Acre open-air public plaza with outdoor café, restaurants and shops—a "
+"central gathering place, perfect for families and friends to meet and enjoy "
+"community events and performances."
+msgstr ""
+
+#: ../page-home.php:138
+msgid ""
+"Premium one, two, three and four bedroom residences in Phase One, followed "
+"by 450 units proposed for Phase Two."
+msgstr ""
+
+#: ../page-home.php:145
+msgid "Square feet of prime retail opportunities."
+msgstr ""
+
+#: ../page-home.php:152
+msgid "Square feet of Hightly Flexible Office Space."
+msgstr ""
+
+#: ../page-home.php:212 ../page-home.php:225
+msgid "In the Pulse of City Life"
+msgstr ""
+
+#: ../page-home.php:215 ../page-home.php:228
+msgid ""
+"Offering a wide variety of specialty shops, retail, entertainment, banks and "
+"transportation, Flushing Commons is ideally located in a diverse community "
+"cradled in the luxury of convenience, enabling Flushing to realize its full "
+"potential."
+msgstr ""
+
+#: ../page-home.php:217
+msgid "View Neighbourhood"
+msgstr ""
+
+#: ../page-live.php:33
+msgid "RESIDENCES"
+msgstr ""
+
+#: ../page-live.php:34
+msgid "Create Your Legacy"
+msgstr ""
+
+#: ../page-live.php:35
+msgid ""
+"The home is fundamentally tied to family. It is a symbol of what you have "
+"accomplished and a monument to past endeavors. It is a place for nurturing "
+"and growth. Be a part of Flushing Commons and start new traditions which "
+"will live on for generations to come."
+msgstr ""
+
+#: ../page-live.php:39
+msgid "Kitchen"
+msgstr ""
+
+#: ../page-live.php:40
+msgid "Living Room"
+msgstr ""
+
+#: ../page-live.php:44
+msgid "Experience Distinction"
+msgstr ""
+
+#: ../page-live.php:45
+msgid ""
+"Residences at Flushing Commons were built to the highest standards of "
+"quality. Furnished with premium finishes hand-picked by award-winning "
+"architectural and interior design firm Perkins Eastman, every residence has "
+"been carefully planned to create a warm and luxurious living space."
+msgstr ""
+
+#: ../page-live.php:60
+msgid ""
+"Premium one, two, three and four-bedroom \n"
+"\t\tpenthouse residences in phase one, followed by 450 units proposed for "
+"phase two."
+msgstr ""
+
+#: ../page-press.php:56
+msgid "VIEW MORE"
+msgstr ""
+
+#: ../page-team.php:29
+msgid "The Team"
+msgstr ""
+
+#: ../page-team.php:35 ../page-team.php:42 ../page-team.php:49
+msgid "VISIT WEBSITE"
+msgstr ""
+
+#: ../page-work.php:31
+msgid "OFFICES"
+msgstr ""
+
+#: ../page-work.php:32
+msgid "Class A Office in the Heart of Flushing"
+msgstr ""
+
+#: ../page-work.php:33
+msgid ""
+"F&T Group, The Rockefeller Group, and AECOM Capital are proud to introduce "
+"the first glass curtain office tower in downtown Flushing. The modern and "
+"stylish design has been tailored to address the needs of discerning "
+"investors looking to have their business or medical practice in a Class A "
+"office space."
+msgstr ""
+
+#: ../page-work.php:48
+msgid ""
+"Own a Piece of This Iconic Building in the Center of Flushing’s Thriving "
+"Business District"
+msgstr ""
+
+#: ../page-work.php:49
+msgid ""
+"With office condominium units from 1,200 to over 4,000 gross sq.ft. and "
+"ample parking for more than 1,600 vehicles, Flushing Commons is the most "
+"preeminent corporate address for Flushing’s highly active business and "
+"medical community. Conceived by award-winning architects Perkins Eastman and "
+"built by Tishman Construction, the Offices at Flushing Commons has been "
+"thoughtfully designed to meet the needs of the most discerning medical "
+"professional, business owner and investor."
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../single.php:55
+msgid "View All"
+msgstr ""
+
+#: ../inc/back-compat.php:37 ../inc/back-compat.php:47
+#: ../inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: ../inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr ""
+
+#: ../inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: ../inc/customizer.php:47 ../inc/customizer.php:63 ../inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: ../inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:92
+msgid "Default"
+msgstr ""
+
+#: ../inc/customizer.php:103
+msgid "Dark"
+msgstr ""
+
+#: ../inc/customizer.php:114
+msgid "Yellow"
+msgstr ""
+
+#: ../inc/customizer.php:125
+msgid "Pink"
+msgstr ""
+
+#: ../inc/customizer.php:136
+msgid "Purple"
+msgstr ""
+
+#: ../inc/customizer.php:147
+msgid "Blue"
+msgstr ""
+
+#: ../inc/nav-header.php:50 ../inc/nav-header.php:86
+msgid "LIVE"
+msgstr ""
+
+#: ../inc/nav-header.php:51 ../inc/nav-header.php:87
+msgid "WORK"
+msgstr ""
+
+#: ../inc/nav-header.php:52 ../inc/nav-header.php:88
+msgid "NEIGHBOURHOOD"
+msgstr ""
+
+#: ../inc/nav-header.php:53 ../inc/nav-header.php:89
+msgid "TEAM"
+msgstr ""
+
+#: ../inc/nav-header.php:54 ../inc/nav-header.php:90
+msgid "PRESS"
+msgstr ""
+
+#: ../inc/nav-header.php:55 ../inc/nav-header.php:91
+msgid "CONTACT"
+msgstr ""
+
+#: ../inc/nav-header.php:56 ../inc/nav-header.php:92
+msgid "AVAILABILITY"
+msgstr ""
+
+#: ../inc/template-tags.php:23
+msgid "Comment navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: ../inc/template-tags.php:49
+msgid "Featured"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "% Comments"
+msgstr ""

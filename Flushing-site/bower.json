@@ -1,0 +1,13 @@
+{
+  "name": "zf5_project",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation",
+    "slick.js": "~1.5.3",
+    "jquery-validation": "~1.13.1",
+    "placeholders": "~4.0.1",
+    "malihu-custom-scrollbar-plugin": "~3.0.8",
+    "page-scroll-to-id": "~1.5.4",
+    "jquery-selectric": "https://github.com/lcdsantos/jQuery-Selectric.git#~1.9.3",
+    "WOW": "~1.1.2"
+  }
+}
